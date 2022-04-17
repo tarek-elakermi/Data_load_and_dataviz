@@ -1,0 +1,12 @@
+version: '3.3'
+services:
+  db:
+    image: mysql
+    restart: always
+    environment:
+      MYSQL_ALLOW_EMPTY_PASSWORD: 1
+      MYSQL_DATABASE: quanticfy
+    ports:
+      - "3306:3306"
+    volumes:
+      - $HOME/Desktop/MySQL-Snippets/school.sql:/school.sql
