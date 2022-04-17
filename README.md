@@ -25,3 +25,12 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice.
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Create Virtual Envirenment
+first `python -m venv myenv` than activate the envirenment `source myenv/bin/activate` than install required packages in requirenment.txt `pip install -r`
+
+## for Angular
+`npm install` than `ng serve -o`
+
+## for database
+you should run load_data.py and application.py to fetch data and save it in the database
